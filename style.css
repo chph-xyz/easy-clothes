@@ -1,0 +1,278 @@
+@font-face {
+    font-family: 'Inter';
+    src: url("./font/Inter-VariableFont_opsz,wght.ttf");
+    font-style: normal;
+    /* font-optical-sizing: auto; */
+}
+
+.bodyFlexible {
+    padding: 2.5%;
+}
+
+body {
+    color:white;
+    background-color: rgba(33, 33, 33, 1);
+    font-family: 'Inter', sans-serif;
+    margin: 0px;
+    padding: 0px;
+}
+
+p {
+    margin: 0;
+    padding: 0;
+}
+
+.content {
+    text-align: center;
+}
+
+.welcome {
+    font-size: 50px;
+    padding-top: 8%;
+    padding-bottom: 2%;
+}
+
+.searchBar{
+    text-align: center;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.searchBar input[type="text"] {
+    width: 100%;
+    padding: 10px;
+    padding-left: 8%;
+    font-size: 16px;
+    border: none;
+    border-radius: 20px;
+    outline: none;
+}
+
+.shoppingFor{
+    font-size: 30px;
+    padding-top: 2%;
+    padding-bottom: 2%;
+}
+
+.chooseGender {
+    font-size: 24px;
+    display: flex;
+    justify-content: center;
+}
+
+.genderButton {
+    color: white;
+    margin-left: 25px;
+    margin-right: 25px;
+    background-color: rgb(92, 92, 92);
+    width: 12%;
+    border-radius: 10px;
+}
+
+.genderButton:hover {
+    background-color: rgb(22, 22, 22);
+}
+
+.genderText {
+    padding: 10px;
+    padding-top: 20px;
+}
+
+.genderImage {
+    padding: 10px;
+    padding-bottom: 20px;
+}
+
+.cornerLinksContainer{
+    position:fixed;
+    bottom: 0;
+    left: 0;
+    padding: 20px;
+    /* border: 5px solid white; */
+}
+
+a{
+    color: white;
+    text-decoration: none;
+}
+
+.product-image {
+    padding: 0;
+    margin: 0;
+    box-shadow: none;
+    max-width: 100%;  /* Ensures the image doesn't stretch beyond its container */
+    /* border: 10px solid rgb(59, 29, 231); */
+}
+
+.card, .product-image {
+    box-sizing: border-box;
+}
+
+.topBar {
+    display: flex;
+    width: 100%;
+    box-sizing: border-box;  /* Ensures padding/margin do not affect the element's width */
+    /* margin: 2.5%; */
+    /* border: 10px solid white; */
+}
+
+.row {
+    display: flex;
+    /* box-sizing: border-box;  Ensures padding/margin do not affect the element's width */
+    /* border: 10px solid rgb(255, 0, 0); */
+    margin: 0;
+}
+
+.filterByCategory {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+}
+
+.homeButton {
+    /* border: 5px solid white; */
+    /* justify-content: flex-start; Aligns items to the left */
+}
+
+.container {
+    max-width: 95%;
+    padding: 0;
+    margin: 2.5%;
+    /* box-sizing: border-box; */
+}
+
+.filterDropdown {
+    border-radius: 12px;
+    padding: 8px;
+    margin-bottom: 10%;
+    font-weight: bold;
+    outline: none;
+}
+
+.filterHeader {
+    border-radius: 12px;
+    padding: 8px;
+    margin-bottom: 10%;
+    font-weight: bold;
+    outline: none;
+}
+
+.card {
+    /* display: flex; */
+    /* border: 10px solid #ffee00; */
+    padding: 10px;
+    border-radius: 0px;
+    background-color: rgba(33, 33, 33, 1);
+    width: 100%;  /* The card should fill the available width within its parent */
+}
+
+.card-body {
+    text-align: center;
+    padding: 10px;
+}
+
+.colForFilters {
+    width: 15%;
+    /* border: 10px solid pink; */
+    display: inline;
+    /* margin-right: 25%; */
+}
+
+.colForProducts {
+    /* border: 5px solid aqua; */
+    display: flex;
+    flex-direction: column;
+    gap: 20px;  /* Space between items */
+    width: 85%;  /* Ensure it uses all available width within its container */
+    box-sizing: border-box;  /* Make sure padding/margin don't affect the total width */
+}
+
+.rowForProducts {
+    display: flex;
+    box-sizing: border-box;  /* Ensure padding and border are included in the width */
+    /* border: 10px solid rgb(255, 0, 255); Keep your border styling */
+    margin: 0;
+    width: 100%; /* Ensure the row takes up full available width */
+}
+
+.product_options {
+    width: 35%;
+    /* border: 5px solid blue; */
+    text-align: center;
+    padding: 20px;
+}
+
+.quantity_display {
+    text-align: center;
+    width: 15%;
+    color: black;
+    background-color: #f0f0f0;
+}
+
+.inc-dec-buttons {
+    width: 7.5%;
+}
+
+.inc-dec-buttons, .quantity_display, .addToCart {
+    border-radius: 5px;
+    font-size: 20px;
+}
+
+.quantity-control {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 10px; /* Adds space between elements */
+}
+
+.addToCart {
+    padding: 5px;
+    padding-left: 30px;
+    padding-right: 30px;
+}
+
+.no-padding {
+    padding: 0;
+}
+
+.grid-container {
+    /* border: 5px solid orange; */
+    width: 65%;
+    display: grid;
+    grid-template-columns: repeat(2, 1fr); /* 2 columns of equal width */
+    gap: 10px; /* Space between grid items */
+}
+
+.grid-container img {
+    width: 100%; /* Make the images responsive */
+    height: auto; /* Maintain aspect ratio */
+}
+
+.pagination {
+    padding: 20px;
+    display: flex;
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+    gap: 20px;
+}
+
+.pagination-button {
+    color: white;
+    margin: 0 5px;
+    padding: 10px;
+    background-color: rgba(33, 33, 33, 1);
+    /* border: 1px solid #ccc; */
+    cursor: pointer;
+}
+
+.pagination-button.active {
+    background-color: #007bff;
+    color: white;
+}
+
+.pagination-button:hover {
+    background-color: #525252;
+}

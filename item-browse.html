@@ -1,0 +1,118 @@
+<!DOCTYPE html>
+<html>
+
+    <head>
+        <title>EasyClothes</title>
+        <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.6.1/css/bootstrap.min.css">
+        <link rel="stylesheet" href="style.css">
+        <script src="script.js" defer></script>
+    </head>
+
+    <body>
+        <div class="container">
+            <div class="topBar">
+                <a href="homepage.html">
+                    <img src="icons/Home.svg" alt="home-button" height="50">
+                </a>
+
+                <div class="searchBar">
+                    <form>
+                        <input type="text" id="name" name="name" placeholder="Search Here">
+                    </form>
+                </div>
+
+                <div class="shoppingCart">
+                    <a href="shoppingCart.html">
+                        <img src="icons/Shopping cart.svg" alt="cart-button" height="50">
+                    </a>
+                </div>
+            </div>
+
+            <div class="row">
+                <div class="colForFilters">
+                    <div class="filterByCategory">
+                        <div class="filterHeader">Filters</div>
+                        <select class="filterDropdown" id="dropdown1">
+                            <option>Gender</option>
+                            <option>Choice A</option>
+                        </select>
+                    
+                        <select class="filterDropdown" id="dropdown2">
+                            <option>Type</option>
+                            <option>Choice A</option>
+                        </select>
+                    </div>
+                </div>
+
+                <div class="colForProducts">
+                    <div class="rowForProducts">
+                        <a href="product_page.html">
+                            <div class="card">
+                                <img id="item_1" class="product-image" src="images/female-sweater-001.png" alt="product_image_1">
+                                <p id="gender_1">gender</p>
+                                <p id="product_name_1">product name</p>
+                                <p id="product_price_1">$29.99</p>
+                            </div>
+                        </a>
+
+                        <a href="product_page.html">
+                            <div class="card">
+                                <img id="item_2" class="product-image" src="images/female-sweater-001.png" alt="product_image_2">
+                                <p id="gender_2">gender</p>
+                                <p id="product_name_2">product name</p>
+                                <p id="product_price_2">$29.99</p>
+                            </div>
+                        </a>
+
+                        <a href="product_page.html">
+                            <div class="card">
+                                <img id="item_3" class="product-image" src="images/female-sweater-001.png" alt="product_image_3">
+                                <p id="gender_3">gender</p>
+                                <p id="product_name_3">product name</p>
+                                <p id="product_price_3">$29.99</p>
+                            </div>
+                        </a>
+                    </div>
+
+                    <div class="rowForProducts">
+                        <a href="product_page.html">
+                            <div class="card">
+                                <img id="item_4" class="product-image" src="images/female-sweater-001.png" alt="product_image_4">
+                                <p id="gender_4">gender</p>
+                                <p id="product_name_4">product name</p>
+                                <p id="product_price_4">$29.99</p>
+                            </div>
+                        </a>
+
+                        <a href="product_page.html">
+                            <div class="card">
+                                <img id="item_5" class="product-image" src="images/female-sweater-001.png" alt="product_image_5">
+                                <p id="gender_5">gender</p>
+                                <p id="product_name_5">product name</p>
+                                <p id="product_price_5">$29.99</p>
+                            </div>
+                        </a>
+
+                        <a href="product_page.html">
+                            <div class="card">
+                                <img id="item_6" class="product-image" src="images/female-sweater-001.png" alt="product_image_6">
+                                <p id="gender_6">gender</p>
+                                <p id="product_name_6">product name</p>
+                                <p id="product_price_6">$29.99</p>
+                            </div>
+                        </a>
+                    </div>
+                </div>
+            </div>
+            
+            <!-- Pagination Controls -->
+            <div class="pagination">
+                <button id="page1">1</button>
+                <button id="page2">2</button>
+                <button id="page3">3</button>
+                <button id="page4">4</button>
+                <button id="page5">5</button>
+            </div>
+        </div>
+    </body>
+</html>

@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>EasyClothes</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="script.js" defer></script>
+</head>
+
+<body>
+    <div class="container">
+        <div class="topBar">
+            <a href="homepage.html">
+                <img src="icons/Home.svg" alt="home-button" height="50">
+            </a>
+        </div>
+
+        <br><br>
+
+        <body class="bodyFlexible">
+            <p>Please use the form below to submit any problems you may have with the website:</p><br>
+            <label for="name">Name:</label><br>
+            <input for="name" type="text" id="complaint_name" placeholder="Please enter your name:"><br><br>
+            <label for="email">Email:</label><br>
+            <input for="email" type="email" id="complaint_email" placeholder="Please enter your email"><br><br>
+            <label for="complaint">Details:</label><br>
+            <textarea id="complaint_details" placeholder="Please include all details regarding the problem:" rows="12" cols="50"></textarea><br><br>
+            <button onclick="SubmitComplaint()">Submit</button>
+        </body>
+</body>
