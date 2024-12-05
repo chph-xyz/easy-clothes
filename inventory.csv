@@ -8,7 +8,7 @@ product_id,product_name,gender,type,price,image_path
 10007,tank top,male,top,9.99,
 10008,dress shirt,male,top,29.99,
 20001,hoodie,female,top,29.99,
-20002,sweater,female,top,29.99,
+20002,sweater,female,top,29.99,https://github.com/chph-xyz/easy-clothes/blob/main/images/female-sweater-003.png
 20003,t-shirt,female,top,14.99,
 20004,knit sweater,female,top,29.99,
 20005,button up shirt,female,top,29.99,
