@@ -14,8 +14,8 @@
         </div>
 
         <div class="searchBar">
-            <form>
-                <input type="text" id="name" name="name" placeholder="Search Here">
+            <form onsubmit="performSearch(event)">
+                <input type="text" id="name" name="name" placeholder="Search Here" required>
             </form>
         </div>
 
@@ -23,16 +23,16 @@
 
         <div class="chooseGender">
             <div class="genderButton">
-                <a href="item-browse.html">
+                <a href="item_browse.html">
                     <div class="genderText">Men</div>
-                    <div class="genderImage"><img src="male.png" alt="Men" height="125"></div>
+                    <div class="genderImage"><img src="images/homepage-male.png" alt="Men" height="125"></div>
                 </a>
             </div>
 
             <div class="genderButton">
-                <a href="item-browse.html">
+                <a href="item_browse.html">
                     <div class="genderText">Women</div>
-                    <div class="genderImage"><img src="female.png" alt="Women" height="125"></div>
+                    <div class="genderImage"><img src="images/homepage-female.png" alt="Women" height="125"></div>
                 </a>
             </div>
         </div>
