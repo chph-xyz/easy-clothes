@@ -3,7 +3,7 @@
 
     <head>
         <title>EasyClothes</title>
-        <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.6.1/css/bootstrap.min.css">
+        <!-- <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.6.1/css/bootstrap.min.css"> -->
         <link rel="stylesheet" href="style.css">
         <script src="script.js" defer></script>
     </head>
@@ -11,13 +11,13 @@
     <body>
         <div class="container">
             <div class="topBar">
-                <a href="homepage.html">
+                <a href="index.html">
                     <img src="icons/Home.svg" alt="home-button" height="50">
                 </a>
 
                 <div class="searchBar">
-                    <form>
-                        <input type="text" id="name" name="name" placeholder="Search Here">
+                    <form onsubmit="performSearch(event)">
+                        <input type="text" id="name" name="name" placeholder="Search Here" required>
                     </form>
                 </div>
 
@@ -30,16 +30,13 @@
 
             <div class="row">
                 <div class="grid-container">
-                    <img src="images\female-sweater-003A.png" alt="Image 1" id="product_image_A">
-                    <img src="images\female-sweater-003B.png" alt="Image 2" id="product_image_B">
-                    <img src="images\female-sweater-003C.png" alt="Image 3" id="product_image_C">
-                    <img src="images\female-sweater-003D.png" alt="Image 4" id="product_image_D">
+                    <img src="images\female-sweater-001.png" alt="Image 1" id="product_image_A">
                 </div>
 
                 <div class="product_options">
                     <p id="product_name">product-name-placeholder</p><br>
                     <p id="product_price">29.99</p><br>
-                    <p id="product_id">product_id_placeholder</p><br>
+                    <!-- <p id="product_id">product_id_placeholder</p><br> -->
                     <!-- <button>XS</button>
                     <button>S</button>
                     <button>M</button>
@@ -48,8 +45,9 @@
 
                     <div class="quantity-control">
                         <button onclick="decrease_quantity()" class="inc-dec-buttons">-</button>
-                        <div id="item_quantity" class="quantity_display">0</div>
+                        <div id="item_quantity" class="quantity_display">1</div>
                         <button onclick="increase_quantity()" class="inc-dec-buttons">+</button>
+                        
                     </div><br>
 
                     <button class="addToCart">Add to Cart</button><br><br>
