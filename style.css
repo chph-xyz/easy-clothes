@@ -33,10 +33,9 @@ p {
 }
 
 .searchBar{
-    text-align: center;
-    width: 100%;
+    /* border: 5px solid blue; */
+    width: 99%;
     display: flex;
-    align-items: center;
     justify-content: center;
 }
 
@@ -44,13 +43,16 @@ p {
     width: 100%;
     padding: 10px;
     padding-left: 8%;
-    font-size: 16px;
+    font-size: 18px;
     border: none;
     border-radius: 20px;
     outline: none;
 }
 
 .shoppingFor{
+    /* justify-content: center; */
+    /* text-align: center; */
+    /* border: 5px solid red; */
     font-size: 30px;
     padding-top: 2%;
     padding-bottom: 2%;
@@ -93,17 +95,96 @@ p {
     /* border: 5px solid white; */
 }
 
+.listOfAddedItems {
+    height: auto;
+    margin-top: 2.5%;
+    width: 60%;
+    color: black;
+    background-color: rgb(202, 202, 202);
+}
+
+.itemInCart {
+    display: flex;
+    margin-bottom: 15px;
+    /* border: 10px solid orange; */
+    width: 100%;
+}
+
+.removeFromCart {
+    padding: 10px;
+    /* border: 5px solid green; */
+    width: 100%;
+    border-radius: 10px;
+    background-color: dark grey;
+    text-align: right;
+}
+
+.itemImageInCart {
+    padding: 10px;
+}
+
+.itemImageInCart img {
+    height: 120px;
+    width: 120px;
+    object-fit: fill; /* Stretch the image to completely fill the container */
+}
+
+ul {
+    padding-left: 5px;
+    list-style-type: none;
+}
+
+.total_sale {
+    color: black;
+    margin-left: 2.5%;
+    margin-top: 20px;
+    width: 100%;
+    max-width: 400px;
+    padding: 20px;
+    border: 1px solid #ccc;
+    border-radius: 8px;
+    background-color: #c5c5c5;
+}
+
+.sale_row {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 10px;
+    font-size: 1rem;
+}
+
+.total {
+    font-weight: bold;
+    font-size: 1.2rem;
+}
+
+button {
+    width: 100%;
+    padding: 10px;
+    background-color: #007bff;
+    color: white;
+    border: none;
+    border-radius: 4px;
+    font-size: 1rem;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: #0056b3;
+}
+
 a{
     color: white;
     text-decoration: none;
 }
 
 .product-image {
-    padding: 0;
-    margin: 0;
-    box-shadow: none;
-    max-width: 100%;  /* Ensures the image doesn't stretch beyond its container */
-    /* border: 10px solid rgb(59, 29, 231); */
+    width: 100%; /* Ensure the image stretches across the full width of the grid cell */
+    height: 100%; /* Ensure the image stretches across the full height of the grid cell */
+    object-fit: fill; /* Ignore aspect ratio and stretch the image */
+    margin: 0; /* Remove any default margin */
+    padding: 0; /* Remove any default padding */
+    box-shadow: none; /* Remove shadow */
 }
 
 .card, .product-image {
@@ -119,6 +200,7 @@ a{
 }
 
 .row {
+    width: 100%;
     display: flex;
     /* box-sizing: border-box;  Ensures padding/margin do not affect the element's width */
     /* border: 10px solid rgb(255, 0, 0); */
@@ -131,10 +213,8 @@ a{
     flex-direction: column;
 }
 
-.homeButton {
-    /* border: 5px solid white; */
-    /* justify-content: flex-start; Aligns items to the left */
-}
+/* .homeButton {
+} */
 
 .container {
     max-width: 95%;
@@ -152,8 +232,12 @@ a{
 }
 
 .filterHeader {
-    border-radius: 12px;
-    padding: 8px;
+    border: 5px solid grey;
+    text-align: center;
+    align-items:center;
+    border-radius: 0px;
+    padding: 5px;
+    margin-top: 7.5%;
     margin-bottom: 10%;
     font-weight: bold;
     outline: none;
@@ -190,14 +274,16 @@ a{
 }
 
 .rowForProducts {
-    display: flex;
-    box-sizing: border-box;  /* Ensure padding and border are included in the width */
-    /* border: 10px solid rgb(255, 0, 255); Keep your border styling */
-    margin: 0;
-    width: 100%; /* Ensure the row takes up full available width */
+    margin-left: 5%;
+    /* border: 5px solid green; */
+    display: grid; /* Use CSS Grid instead of Flexbox */
+    grid-template-columns: repeat(3, 1fr); /* 3 columns */
+    gap: 20px; /* Space between items */
+    width: 80%;
 }
 
 .product_options {
+    margin-top:50px;
     width: 35%;
     /* border: 5px solid blue; */
     text-align: center;
@@ -239,15 +325,11 @@ a{
 
 .grid-container {
     /* border: 5px solid orange; */
-    width: 65%;
-    display: grid;
-    grid-template-columns: repeat(2, 1fr); /* 2 columns of equal width */
-    gap: 10px; /* Space between grid items */
-}
-
-.grid-container img {
-    width: 100%; /* Make the images responsive */
-    height: auto; /* Maintain aspect ratio */
+    margin-top:50px;
+    width: 100%;
+    align-items:center;
+    justify-content:center;
+    display:grid;
 }
 
 .pagination {
