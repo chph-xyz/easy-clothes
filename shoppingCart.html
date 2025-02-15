@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html>
+
+    <head>
+        <title>EasyClothes</title>
+        <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.6.1/css/bootstrap.min.css">
+        <link rel="stylesheet" href="style.css">
+        <script src="script.js" defer></script>
+    </head>
+
+    <body>
+        <div class="container">
+            <div class="topBar">
+                <a href="index.html">
+                    <img src="icons/Home.svg" alt="home-button" height="50">
+                </a>
+
+                <div class="searchBar">
+                    <form>
+                        <input type="text" id="name" name="name" placeholder="Search Here">
+                    </form>
+                </div>
+
+                <div class="shoppingCart">
+                    <a href="shoppingCart.html">
+                        <img src="icons/Shopping cart.svg" alt="cart-button" height="50">
+                    </a>
+                </div>
+            </div>
+
+            <div class="row">
+                <div class="listOfAddedItems" id="listOfAddedItems">
+                    <div class="itemInCart">
+                        <div class="itemImageInCart">
+                            <img src="images\male-skinnyjeans-001.png" alt="home-button" id="itemImage">
+                        </div>
+                        <ul id="itemDetailsInCart">
+                            <li id="itemName">Name</li>
+                            <li id="itemGender">Gender</li><br>
+                            <li id="itemPrice">Price</li>
+                        </ul>
+                        <div class="removeFromCart">
+                            <button type="submit" onclick="removeItem()">Remove</button>
+                        </div>
+                    </div>
+                </div>
+                <!-- supposed to add item to cart dynamically, not hardcoded -->
+                <!-- idea was to add a div "itemInCart" then populate it with name, price, etc. in javascript -->
+
+                <div class="total_sale">
+                    <div class="sale_row">
+                        <span class="label">Subtotal:</span>
+                        <span class="value" id="subtotalValue">$0.00</span>
+                    </div>
+                    <div class="sale_row">
+                        <span class="label">Shipping/Handling:</span>
+                        <span class="value" id="shippingValue">$0.00</span>
+                    </div>
+                    <div class="sale_row">
+                        <span class="label">Tax:</span>
+                        <span class="value" id="taxValue">$0.00</span>
+                    </div>
+                    <div class="sale_row total">
+                        <span class="label">Total:</span>
+                        <span class="value" id="totalValue">$0.00</span>
+                    </div>
+                    <button type="button" onclick="purchaseButton()">Purchase</button>
+                </div>
+            </div>
+        </div>
+    </body>
+</html>

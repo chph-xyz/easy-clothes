@@ -1,0 +1,46 @@
+
+EasyClothes (E-Clothes) idea, online clothing store
+
+data - price, size, gender, item name, washer/dryer instructions
+features - search bar, search by product name, product ID
+default dark theme, no videos (reconsider?), languages? (eng/french?)
+what should the front page have? buttons, search bar
+the focus is on convenience, speed, simplicity, no fancy animation stuff(?)
+
+relevance/importance: many retail stores are inconvenient to navigate through,
+or they hurt your eyes with bright backgrounds with no dark theme alternatives.
+"EasyClothes" makes the user experience simple and convenient.
+
+Objective:
+>develop a website for online clothes shopping
+>many online retailers don't offer a dark theme
+>ie. Uniqlo, H&M, Abercrombie & Fitch, HollisterCo, Banana Republic, GAP
+
+Goals:
+>make online shopping faster and convenient
+>avoid complicated layouts and use simple code
+>simplify the process for customers
+>promote simple everyday clothing
+
+Key Features of the Online Shopping website:
+>simple design and fast navigations
+>item search bar and item category options for ease of use
+>allow shopping during late hours without hurting their eyes (mobile, late hours)
+>designed for mobile (Android, iOS, etc.) and browser (Chrome, Firefox, etc.)
+>no SEO (search engine opti.), no upselling, no "also purchased with..." or "you may also like..."
+
+Technology Stack:
+>Frontend - HTML5, CSS, Bootstrap, Javascript
+>Backend - Node.js
+>Database - MySQL
+
+Phase 1: planning - 1 week
+Phase 2: design and prototyping - 2 weeks
+Phase 3: development - 3 weeks
+
+Key milestones and deliverables:
+> User can navigate from home page to a specific product page
+> User can explore all colors for product
+> User can sort and filter products
+> User can search by product name or product ID
+> User can submit a report or complaint (bugs/glitches, reviews, feedback, etc.)

@@ -1,0 +1,360 @@
+@font-face {
+    font-family: 'Inter';
+    src: url("./font/Inter-VariableFont_opsz,wght.ttf");
+    font-style: normal;
+    /* font-optical-sizing: auto; */
+}
+
+.bodyFlexible {
+    padding: 2.5%;
+}
+
+body {
+    color:white;
+    background-color: rgba(33, 33, 33, 1);
+    font-family: 'Inter', sans-serif;
+    margin: 0px;
+    padding: 0px;
+}
+
+p {
+    margin: 0;
+    padding: 0;
+}
+
+.content {
+    text-align: center;
+}
+
+.welcome {
+    font-size: 50px;
+    padding-top: 8%;
+    padding-bottom: 2%;
+}
+
+.searchBar{
+    /* border: 5px solid blue; */
+    width: 99%;
+    display: flex;
+    justify-content: center;
+}
+
+.searchBar input[type="text"] {
+    width: 100%;
+    padding: 10px;
+    padding-left: 8%;
+    font-size: 18px;
+    border: none;
+    border-radius: 20px;
+    outline: none;
+}
+
+.shoppingFor{
+    /* justify-content: center; */
+    /* text-align: center; */
+    /* border: 5px solid red; */
+    font-size: 30px;
+    padding-top: 2%;
+    padding-bottom: 2%;
+}
+
+.chooseGender {
+    font-size: 24px;
+    display: flex;
+    justify-content: center;
+}
+
+.genderButton {
+    color: white;
+    margin-left: 25px;
+    margin-right: 25px;
+    background-color: rgb(92, 92, 92);
+    width: 12%;
+    border-radius: 10px;
+}
+
+.genderButton:hover {
+    background-color: rgb(22, 22, 22);
+}
+
+.genderText {
+    padding: 10px;
+    padding-top: 20px;
+}
+
+.genderImage {
+    padding: 10px;
+    padding-bottom: 20px;
+}
+
+.cornerLinksContainer{
+    position:fixed;
+    bottom: 0;
+    left: 0;
+    padding: 20px;
+    /* border: 5px solid white; */
+}
+
+.listOfAddedItems {
+    height: auto;
+    margin-top: 2.5%;
+    width: 60%;
+    color: black;
+    background-color: rgb(202, 202, 202);
+}
+
+.itemInCart {
+    display: flex;
+    margin-bottom: 15px;
+    /* border: 10px solid orange; */
+    width: 100%;
+}
+
+.removeFromCart {
+    padding: 10px;
+    /* border: 5px solid green; */
+    width: 100%;
+    border-radius: 10px;
+    background-color: dark grey;
+    text-align: right;
+}
+
+.itemImageInCart {
+    padding: 10px;
+}
+
+.itemImageInCart img {
+    height: 120px;
+    width: 120px;
+    object-fit: fill; /* Stretch the image to completely fill the container */
+}
+
+ul {
+    padding-left: 5px;
+    list-style-type: none;
+}
+
+.total_sale {
+    color: black;
+    margin-left: 2.5%;
+    margin-top: 20px;
+    width: 100%;
+    max-width: 400px;
+    padding: 20px;
+    border: 1px solid #ccc;
+    border-radius: 8px;
+    background-color: #c5c5c5;
+}
+
+.sale_row {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 10px;
+    font-size: 1rem;
+}
+
+.total {
+    font-weight: bold;
+    font-size: 1.2rem;
+}
+
+button {
+    width: 100%;
+    padding: 10px;
+    background-color: #007bff;
+    color: white;
+    border: none;
+    border-radius: 4px;
+    font-size: 1rem;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: #0056b3;
+}
+
+a{
+    color: white;
+    text-decoration: none;
+}
+
+.product-image {
+    width: 100%; /* Ensure the image stretches across the full width of the grid cell */
+    height: 100%; /* Ensure the image stretches across the full height of the grid cell */
+    object-fit: fill; /* Ignore aspect ratio and stretch the image */
+    margin: 0; /* Remove any default margin */
+    padding: 0; /* Remove any default padding */
+    box-shadow: none; /* Remove shadow */
+}
+
+.card, .product-image {
+    box-sizing: border-box;
+}
+
+.topBar {
+    display: flex;
+    width: 100%;
+    box-sizing: border-box;  /* Ensures padding/margin do not affect the element's width */
+    /* margin: 2.5%; */
+    /* border: 10px solid white; */
+}
+
+.row {
+    width: 100%;
+    display: flex;
+    /* box-sizing: border-box;  Ensures padding/margin do not affect the element's width */
+    /* border: 10px solid rgb(255, 0, 0); */
+    margin: 0;
+}
+
+.filterByCategory {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+}
+
+/* .homeButton {
+} */
+
+.container {
+    max-width: 95%;
+    padding: 0;
+    margin: 2.5%;
+    /* box-sizing: border-box; */
+}
+
+.filterDropdown {
+    border-radius: 12px;
+    padding: 8px;
+    margin-bottom: 10%;
+    font-weight: bold;
+    outline: none;
+}
+
+.filterHeader {
+    border: 5px solid grey;
+    text-align: center;
+    align-items:center;
+    border-radius: 0px;
+    padding: 5px;
+    margin-top: 7.5%;
+    margin-bottom: 10%;
+    font-weight: bold;
+    outline: none;
+}
+
+.card {
+    /* display: flex; */
+    /* border: 10px solid #ffee00; */
+    padding: 10px;
+    border-radius: 0px;
+    background-color: rgba(33, 33, 33, 1);
+    width: 100%;  /* The card should fill the available width within its parent */
+}
+
+.card-body {
+    text-align: center;
+    padding: 10px;
+}
+
+.colForFilters {
+    width: 15%;
+    /* border: 10px solid pink; */
+    display: inline;
+    /* margin-right: 25%; */
+}
+
+.colForProducts {
+    /* border: 5px solid aqua; */
+    display: flex;
+    flex-direction: column;
+    gap: 20px;  /* Space between items */
+    width: 85%;  /* Ensure it uses all available width within its container */
+    box-sizing: border-box;  /* Make sure padding/margin don't affect the total width */
+}
+
+.rowForProducts {
+    margin-left: 5%;
+    /* border: 5px solid green; */
+    display: grid; /* Use CSS Grid instead of Flexbox */
+    grid-template-columns: repeat(3, 1fr); /* 3 columns */
+    gap: 20px; /* Space between items */
+    width: 80%;
+}
+
+.product_options {
+    margin-top:50px;
+    width: 35%;
+    /* border: 5px solid blue; */
+    text-align: center;
+    padding: 20px;
+}
+
+.quantity_display {
+    text-align: center;
+    width: 15%;
+    color: black;
+    background-color: #f0f0f0;
+}
+
+.inc-dec-buttons {
+    width: 7.5%;
+}
+
+.inc-dec-buttons, .quantity_display, .addToCart {
+    border-radius: 5px;
+    font-size: 20px;
+}
+
+.quantity-control {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 10px; /* Adds space between elements */
+}
+
+.addToCart {
+    padding: 5px;
+    padding-left: 30px;
+    padding-right: 30px;
+}
+
+.no-padding {
+    padding: 0;
+}
+
+.grid-container {
+    /* border: 5px solid orange; */
+    margin-top:50px;
+    width: 100%;
+    align-items:center;
+    justify-content:center;
+    display:grid;
+}
+
+.pagination {
+    padding: 20px;
+    display: flex;
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+    gap: 20px;
+}
+
+.pagination-button {
+    color: white;
+    margin: 0 5px;
+    padding: 10px;
+    background-color: rgba(33, 33, 33, 1);
+    /* border: 1px solid #ccc; */
+    cursor: pointer;
+}
+
+.pagination-button.active {
+    background-color: #007bff;
+    color: white;
+}
+
+.pagination-button:hover {
+    background-color: #525252;
+}

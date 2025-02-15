@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>EasyClothes</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="script.js" defer></script>
+</head>
+
+<body>
+    <div class="content">
+        <div class="welcome">
+            <p>Welcome to EasyClothes</p>
+        </div>
+
+        <div class="searchBar">
+            <form onsubmit="performSearch(event)">
+                <input type="text" id="name" name="name" placeholder="Search Here" required>
+            </form>
+        </div>
+
+        <div class="shoppingFor">Shopping for:</div>
+
+        <div class="chooseGender">
+            <div class="genderButton">
+                <a href="item_browse.html">
+                    <div class="genderText">Men</div>
+                    <div class="genderImage"><img src="images/homepage-male.png" alt="Men" height="125"></div>
+                </a>
+            </div>
+
+            <div class="genderButton">
+                <a href="item_browse.html">
+                    <div class="genderText">Women</div>
+                    <div class="genderImage"><img src="images/homepage-female.png" alt="Women" height="125"></div>
+                </a>
+            </div>
+        </div>
+    </div>
+
+    <div class="cornerLinksContainer">
+        <a href="support.html">Support</a><br>
+        <a href="termsOfUse.html">Terms Of Use</a><br>
+        <a href="privacy_policy.html">Privacy Policy</a>
+    </div>
+</body>
+</html>

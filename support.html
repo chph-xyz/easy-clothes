@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>EasyClothes</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="script.js" defer></script>
+    <script>
+        function validateAndSubmitComplaint() {
+            const name = document.getElementById("complaint_name").value.trim();
+            const email = document.getElementById("complaint_email").value.trim();
+            const details = document.getElementById("complaint_details").value.trim();
+
+            // Simple validation
+            if (!name || !email || !details) {
+                alert("All fields are required. Please fill them out.");
+                return;
+            }
+
+            if (!email.includes("@")) {
+                alert("Invalid email address. Please include '@' in your email.");
+                return;
+            }
+
+            // Simulate successful submission
+            alert("Your complaint has been submitted. Thank you!");
+
+            // Clear the form
+            document.getElementById("complaint_name").value = "";
+            document.getElementById("complaint_email").value = "";
+            document.getElementById("complaint_details").value = "";
+        }
+    </script>
+</head>
+
+<body>
+    <div class="container">
+        <div class="topBar">
+            <a href="index.html">
+                <img src="icons/Home.svg" alt="home-button" height="50">
+            </a>
+        </div>
+
+        <br><br>
+
+        <div class="bodyFlexible">
+            <p>Please use the form below to submit any problems you may have with the website:</p><br>
+            <label for="name">Name:</label><br>
+            <input type="text" id="complaint_name" placeholder="Please enter your name:" required><br><br>
+            <label for="email">Email:</label><br>
+            <input type="email" id="complaint_email" placeholder="Please enter your email" required><br><br>
+            <label for="complaint">Details:</label><br>
+            <textarea id="complaint_details" placeholder="Please include all details regarding the problem:" rows="12" cols="50" required></textarea><br><br>
+            <button onclick="validateAndSubmitComplaint()">Submit</button>
+        </div>
+    </div>
+</body>
+
+</html>

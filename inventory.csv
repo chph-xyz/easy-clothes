@@ -1,0 +1,28 @@
+product_id,product_name,gender,type,price,image_path
+10001,hoodie,male,top,29.99,https://raw.githubusercontent.com/chph-xyz/easy-clothes/refs/heads/main/images/male-hoodie-001.png
+10002,sweater,male,top,29.99,https://raw.githubusercontent.com/chph-xyz/easy-clothes/refs/heads/main/images/male-sweater-001.png
+10003,t-shirt,male,top,29.99,https://raw.githubusercontent.com/chph-xyz/easy-clothes/refs/heads/main/images/male-tshirt-001.png
+10004,long sleeve shirt,male,top,29.99,https://raw.githubusercontent.com/chph-xyz/easy-clothes/refs/heads/main/images/male-longsleeve-001.png
+10005,light jacket,male,top,29.99,https://raw.githubusercontent.com/chph-xyz/easy-clothes/refs/heads/main/images/male-lightjacket-001.png
+10006,heavy jacket,male,top,29.99,https://raw.githubusercontent.com/chph-xyz/easy-clothes/refs/heads/main/images/male-heavyjacket-001.png
+10007,tank top,male,top,29.99,https://raw.githubusercontent.com/chph-xyz/easy-clothes/refs/heads/main/images/male-tanktop-001.png
+10008,dress shirt,male,top,29.99,https://raw.githubusercontent.com/chph-xyz/easy-clothes/refs/heads/main/images/male-dressshirt-001.png
+20001,hoodie,female,top,29.99,https://raw.githubusercontent.com/chph-xyz/easy-clothes/refs/heads/main/images/female-hoodie-001.png
+20002,sweater,female,top,29.99,https://raw.githubusercontent.com/chph-xyz/easy-clothes/refs/heads/main/images/female-sweater-001.png
+20003,t-shirt,female,top,29.99,https://raw.githubusercontent.com/chph-xyz/easy-clothes/refs/heads/main/images/female-tshirt-001.png
+20004,knit sweater,female,top,29.99,https://raw.githubusercontent.com/chph-xyz/easy-clothes/refs/heads/main/images/female-knitsweater-001.png
+20005,button up shirt,female,top,29.99,https://raw.githubusercontent.com/chph-xyz/easy-clothes/refs/heads/main/images/female-buttonshirt-001.png
+20006,cardigan,female,top,29.99,https://raw.githubusercontent.com/chph-xyz/easy-clothes/refs/heads/main/images/female-cardigan-001.png
+20007,jean overalls,female,top,29.99,https://raw.githubusercontent.com/chph-xyz/easy-clothes/refs/heads/main/images/female-jeanoveralls-001.png
+20008,jean jacket,female,top,29.99,https://raw.githubusercontent.com/chph-xyz/easy-clothes/refs/heads/main/images/female-jeanjacket-001.png
+10009,jeans,male,bottom,29.99,https://raw.githubusercontent.com/chph-xyz/easy-clothes/refs/heads/main/images/male-jeans-001.png
+10010,skinny jeans,male,bottom,29.99,https://raw.githubusercontent.com/chph-xyz/easy-clothes/refs/heads/main/images/male-skinnyjeans-001.png
+10013,dress pants,male,bottom,29.99,https://raw.githubusercontent.com/chph-xyz/easy-clothes/refs/heads/main/images/male-dresspants-001.png
+10014,skirt,female,bottom,29.99,https://raw.githubusercontent.com/chph-xyz/easy-clothes/refs/heads/main/images/female-skirt-001.png
+10015,shorts,male,bottom,29.99,https://raw.githubusercontent.com/chph-xyz/easy-clothes/refs/heads/main/images/male-shorts-001.png
+10016,sweat pants,male,bottom,29.99,https://raw.githubusercontent.com/chph-xyz/easy-clothes/refs/heads/main/images/male-sweatpants-001.png
+20009,jeans,female,bottom,29.99,https://raw.githubusercontent.com/chph-xyz/easy-clothes/refs/heads/main/images/female-jeans-001.png
+20010,skinny jeans,female,bottom,29.99,https://raw.githubusercontent.com/chph-xyz/easy-clothes/refs/heads/main/images/female-skinnyjeans-001.png
+20013,dress pants,female,bottom,29.99,https://raw.githubusercontent.com/chph-xyz/easy-clothes/refs/heads/main/images/female-dresspants-001.png
+20015,shorts,female,bottom,29.99,https://raw.githubusercontent.com/chph-xyz/easy-clothes/refs/heads/main/images/female-shorts-001.png
+20016,sweat pants,female,bottom,29.99,https://raw.githubusercontent.com/chph-xyz/easy-clothes/refs/heads/main/images/female-sweatpants-001.png
